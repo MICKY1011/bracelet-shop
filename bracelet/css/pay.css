@@ -1,0 +1,145 @@
+nav {
+  background-color: rgba(51, 51, 51, 0.2);
+}
+nav h4 {
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(90deg, black, gray);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-black {
+  width: 500px;
+  height: 500px;
+  border: none;
+  box-shadow: 0 0 5px black;
+}
+@media screen and (max-width: 768px) {
+  .card-black {
+    width: 420px;
+  }
+}
+.card-black li {
+  display: flex;
+  justify-content: center;
+}
+.card-black img {
+  height: 250px;
+}
+.card-black .color-picker {
+  display: flex;
+  justify-content: center;
+}
+.card-black .color-picker .color {
+  height: 25px;
+  width: 25px;
+  border-radius: 25px;
+  margin: 10px;
+  border: none;
+}
+.card-black .color-picker .color:nth-child(1) {
+  background-color: #333;
+  box-shadow: 0 0 10px #333;
+}
+.card-black .color-picker .color:nth-child(2) {
+  background-color: lavender;
+  box-shadow: 0 0 10px lavender;
+}
+.card-black .color-picker .color:nth-child(3) {
+  background-color: #753128;
+  box-shadow: 0 0 10px #753128;
+}
+.card-black .thumbnails {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.card-black .thumbnails img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  .card-black .thumbnails img {
+    width: 100px;
+    margin: 0 15px 0 15px;
+  }
+}
+.card-black .thumbnails .thumbnail {
+  opacity: 0.6;
+}
+.card-black .thumbnails .thumbnail.is-active {
+  opacity: 1;
+}
+
+.middle .pay-card h5 {
+  font-family: sans-serif;
+}
+.middle .pay-card h5:nth-child(1) {
+  color: #5bb58f;
+}
+.middle .pay-card h5 span {
+  margin: 0 5px 0 0;
+}
+.middle .pay-card input {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #333;
+  outline: 0;
+  margin: 0 15px 0 0;
+}
+.middle .pay-card select {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #333;
+  outline: 0;
+  padding: 2px;
+}
+.middle .pay-card #shipping {
+  margin: 0 15px 0 0;
+}
+.middle .pay-card .show-shipping {
+  border-bottom: 1px solid black;
+}
+.middle .cart button {
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+  margin: 0 15px 0 0;
+}
+.middle .cart button:nth-child(1) {
+  box-shadow: 0 0 5px rgb(47, 155, 47);
+  background-color: rgb(47, 155, 47);
+  color: white;
+}
+.middle .cart button:nth-child(2) {
+  box-shadow: 0 0 5px black;
+  background-color: #5667b0;
+  color: white;
+}
+
+.right {
+  display: flex;
+  justify-content: end;
+  margin: 0 0 0 25px;
+}
+
+.bottom {
+  display: flex;
+}
+.bottom .key-features {
+  flex: 1;
+}
+.bottom .key-features h4 {
+  font-family: "Times New Roman", Times, serif;
+}
+.bottom .images-section {
+  flex: 1;
+}
+.bottom .images-section img {
+  display: block;
+  width: 450px;
+  height: 450px;
+}/*# sourceMappingURL=pay.css.map */

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/@splidejs/splide/dist/css/splide.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/bracelet/css/pay.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h4><a href="/index.html">CM Bracelets</a></h4>
+            <div data-bs-toggle="offcanvas" data-bs-target="#bag" class="nav-link active">
+                <i class="fa-solid fa-bag-shopping fs-4"></i>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="bag">
+              <div class="offcanvas-header d-flex justify-content-center">
+                <h4><a href="pay.html">My Bag</a></h4>
+              </div>
+              <div class="offcanvas-body">
+                <h3 class="text-center">your bag is empty</h3>
+              </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container d-flex">
+      <div class="left">
+        <div class="card-black mt-5">
+          <section id="main-slide" class="splide">
+            <div class="splide__track">
+                  <ul class="splide__list slider">
+                    <li class="splide__slide"><img src="/bracelet/images/black-black.jpg" alt=""/></li>
+                    <li class="splide__slide"><img src="/bracelet/images/black-black-lies.jpg" alt=""/></li>
+                    <li class="splide__slide"><img src="/bracelet/images/black-gold.jpg" alt=""/></li>
+                  </ul>
+            </div>
+          </section>
+          <section class="">
+                  <ul id="thumbnails" class="thumbnails under">
+                    <li class="thumbnail"><img src="/bracelet/images/black-black.jpg" alt=""/></li>
+                    <li class="thumbnail"><img src="/bracelet/images/black-black-lies.jpg" alt=""/></li>
+                    <li class="thumbnail"><img src="/bracelet/images/black-gold.jpg" alt=""/></li>
+                  </ul> 
+          </section>
+          <section class="color-picker">
+            <button class="color"></button>
+            <button class="color"></button>
+            <button class="color"></button>
+          </section>
+        </div>
+        <div class="middle mt-4">
+          <div class="pay-card">
+            <h5>in stock</h5>
+            <h5><span>price:</span>25$</h5>
+            <input type="number" placeholder="Quantity">
+            <select id="">
+              <option value="">Pay Pal</option>
+              <option value="">Visa</option>
+            </select>
+            <div class="shipping mt-4 d-flex">
+              <select id="shipping">
+                <option class="price" value="">choose shipping</option>
+                <option class="price" value="free">standart shipping</option>
+                <option class="price" value="epost">4-10 business days</option>
+                <option class="price" value="express">1 business day</option>
+              </select>
+              <div class="show-shipping"></div>
+            </div>
+          </div>
+          <div class="cart mt-4">
+            <button>Buy Now</button>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+      </div>
+      <div class="right">
+        <section class="description mt-5 d-none d-lg-block">
+            <h4 class="text-center">Introducing the Charger Bracelet</h4>
+            <p>
+              a stylish and convenient accessory that combines fashion with
+              functionality. This innovative bracelet is designed to keep you
+              connected and powered up on the go.
+            </p>
+            <p>
+              The Charger Bracelet is more than just a fashion statement. It
+              features a hidden USB charging cable cleverly integrated into its
+              sleek and durable design. With this built-in charging cable, you can
+              effortlessly charge your devices wherever you are, without the hassle
+              of carrying around tangled cords or searching for an available outlet.
+            </p>
+            <p>
+              Crafted with high-quality materials, the Charger Bracelet exudes
+              elegance and durability. It is available in a range of stylish
+              designs, colors, and sizes, making it suitable for both men and women.
+              Whether you're going to work, attending a social event, or traveling,
+              the Charger Bracelet seamlessly complements your outfit while
+              providing the functionality you need.
+            </p>
+            <p>
+              To use the Charger Bracelet, simply unfold the bracelet and connect
+              the USB end to your device. It supports a wide range of devices,
+              including smartphones, tablets, smartwatches, and more. The bracelet's
+              charging cable is compatible with various charging ports, including
+              Lightning, USB-C, and Micro-USB, ensuring compatibility with most
+              devices on the market.
+            </p>
+            <p>
+              The Charger Bracelet is not only practical but also makes for a
+              perfect gift for tech-savvy individuals or anyone who values both
+              style and functionality. It is a versatile accessory that seamlessly
+              blends into any lifestyle, whether you're a busy professional, a
+              frequent traveler, or a fashion enthusiast.
+            </p>
+            <p>
+              Stay connected, stay powered up, and make a statement with the Charger
+              Bracelet. Experience the perfect fusion of fashion and functionality.
+              Order yours today and take the convenience of charging with you
+              wherever you go.
+            </p>
+        </section>
+      </div>
+    </div>
+    <div class="bottom container mt-5 d-md-flex d-block">
+      <div class="key-features">
+        <h4>Description</h4>
+        <ul>
+          <li>Sleek and lightweight design</li>
+          <li>Multiple connectors for convenience</li>
+          <li>Eliminates the need for bulky charging cables</li>
+          <li>Always have a charging cable on hand</li>
+          <li>Easy and hassle-free charging</li>
+          <li>Compatible with smartphones and tablets</li>
+          <li>Sleek and stylish accessory</li>
+          <li>Designed for on-the-go individuals</li>
+          <li>Package Content: 1 Phone Charger Bracelet</li>
+        </ul>
+      </div>
+      <div class="images-section">
+        <img src="../images/black-black.jpg" alt="">
+        <img src="../images/black-black.jpg" alt="">
+        <img src="../images/black-black.jpg" alt="">
+        <img src="../images/black-black.jpg" alt="">
+        <img src="../images/black-black.jpg" alt="">
+        <img src="../images/black-black.jpg" alt="">
+      </div>
+    </div>
+</body>
+<script
+    type="module"
+    src="/node_modules/@splidejs/splide/dist/js/splide.min.js"
+  ></script>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+crossorigin="anonymous"
+></script>
+<script type="module" src="/bracelet/js/pay.js"></script>
+</html>

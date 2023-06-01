@@ -1,0 +1,73 @@
+nav {
+  background-color: rgba(51, 51, 51, 0.2);
+}
+nav .container h4 {
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(90deg, black, gray);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav .container .offcanvas-body li {
+  list-style: disc;
+}
+nav .container .offcanvas-body li a:hover {
+  color: #6085e4;
+  padding: 0 15px 0 15px;
+}
+nav .container .offcanvas-body a {
+  color: black;
+  text-decoration: none;
+}
+
+.filter select {
+  margin: 15px 0 0 15px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.description h4 {
+  color: #6085e4;
+}
+
+.main-container img {
+  height: 250px;
+  width: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-container img:nth-child(1), .main-container img:nth-child(2) {
+  height: 350px;
+}
+.main-container .splide__track {
+  width: 250px;
+}
+
+.divide {
+  margin-top: 50px;
+}
+
+.footer {
+  background-color: rgba(51, 51, 51, 0.2);
+  min-height: 150px;
+}
+.footer .left {
+  padding: 25px 0 0 0;
+}
+.footer .right input {
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: transparent;
+  box-shadow: 0 0 5px black;
+  outline: 0;
+}
+.footer a {
+  color: black;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #6085e4;
+  padding: 0 0 0 25px;
+}/*# sourceMappingURL=style.css.map */

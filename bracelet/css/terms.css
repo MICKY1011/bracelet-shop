@@ -1,0 +1,54 @@
+.privacy h1,
+.privacy h3 {
+  text-align: center;
+  color: #6085e4;
+}
+.privacy h4 {
+  color: #6085e4;
+  margin: 15px 0 15px 0;
+}
+
+.refund h1,
+.refund h3 {
+  text-align: center;
+  color: #6085e4;
+}
+.refund h4 {
+  color: #6085e4;
+  margin: 15px 0 15px 0;
+}
+
+.shopping h1,
+.shopping h3 {
+  text-align: center;
+  color: #6085e4;
+}
+.shopping h4 {
+  color: #6085e4;
+  margin: 15px 0 15px 0;
+}
+
+.terms h1,
+.terms h3 {
+  text-align: center;
+  color: #6085e4;
+}
+.terms span {
+  color: #6085e4;
+  font-size: 20px;
+}
+.terms h4 {
+  color: #6085e4;
+  margin: 15px 0 15px 0;
+}
+
+nav {
+  background-color: rgba(51, 51, 51, 0.2);
+}
+nav h4 {
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(to right, black, gray);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}/*# sourceMappingURL=terms.css.map */
